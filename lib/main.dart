@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:helloworld/screens/home_screen.dart';
+import 'package:helloworld/screens/counter_screen.dart';
 
 void main() {
   /// Ejecutando la aplicación.
@@ -15,8 +16,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
-    );
+        debugShowCheckedModeBanner: false,
+        //home: HomeScreen(),
+        home: CounterScreen());
   }
 }
